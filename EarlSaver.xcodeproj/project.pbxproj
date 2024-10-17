@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		27BE4D2C2CC0CAE400E23EF7 /* EarlSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = 27BE4D2B2CC0CAE400E23EF7 /* EarlSaverView.h */; };
 		27BE4D2E2CC0CAE400E23EF7 /* EarlSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BE4D2D2CC0CAE400E23EF7 /* EarlSaverView.m */; };
+		27BE4D382CC0CC8100E23EF7 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 27BE4D372CC0CC8100E23EF7 /* config.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		27BE4D2B2CC0CAE400E23EF7 /* EarlSaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EarlSaverView.h; sourceTree = "<group>"; };
 		27BE4D2D2CC0CAE400E23EF7 /* EarlSaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EarlSaverView.m; sourceTree = "<group>"; };
 		27BE4D2F2CC0CAE400E23EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27BE4D372CC0CC8100E23EF7 /* config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 				27BE4D2B2CC0CAE400E23EF7 /* EarlSaverView.h */,
 				27BE4D2D2CC0CAE400E23EF7 /* EarlSaverView.m */,
 				27BE4D2F2CC0CAE400E23EF7 /* Info.plist */,
+				27BE4D372CC0CC8100E23EF7 /* config.json */,
 			);
 			path = EarlSaver;
 			sourceTree = "<group>";
@@ -94,6 +97,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = com.vinorodrigues;
 				TargetAttributes = {
 					27BE4D272CC0CAE400E23EF7 = {
 						CreatedOnToolsVersion = 12.4;
@@ -123,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27BE4D382CC0CC8100E23EF7 /* config.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +263,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = EarlSaver/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vinorodrigues.EarlSaver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = saver;
@@ -271,6 +277,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = EarlSaver/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vinorodrigues.EarlSaver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = saver;
