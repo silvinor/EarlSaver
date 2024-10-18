@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2736CB582CC1AB8E0090C7F9 /* Preview.png in Resources */ = {isa = PBXBuildFile; fileRef = 2736CB572CC1AB8E0090C7F9 /* Preview.png */; };
+		2736CB582CC1AB8E0090C7F9 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 2736CB572CC1AB8E0090C7F9 /* thumbnail.png */; };
 		2736CB5E2CC1AEB10090C7F9 /* default.html in Resources */ = {isa = PBXBuildFile; fileRef = 2736CB5D2CC1AEB10090C7F9 /* default.html */; };
 		27BE4D2C2CC0CAE400E23EF7 /* EarlSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = 27BE4D2B2CC0CAE400E23EF7 /* EarlSaverView.h */; };
 		27BE4D2E2CC0CAE400E23EF7 /* EarlSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BE4D2D2CC0CAE400E23EF7 /* EarlSaverView.m */; };
@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2736CB572CC1AB8E0090C7F9 /* Preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Preview.png; sourceTree = "<group>"; };
+		2736CB572CC1AB8E0090C7F9 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
 		2736CB5D2CC1AEB10090C7F9 /* default.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = default.html; sourceTree = "<group>"; };
 		27BE4D282CC0CAE400E23EF7 /* EarlSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarlSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		27BE4D2B2CC0CAE400E23EF7 /* EarlSaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EarlSaverView.h; sourceTree = "<group>"; };
@@ -39,7 +39,7 @@
 			isa = PBXGroup;
 			children = (
 				27BE4D372CC0CC8100E23EF7 /* config.json */,
-				2736CB572CC1AB8E0090C7F9 /* Preview.png */,
+				2736CB572CC1AB8E0090C7F9 /* thumbnail.png */,
 				2736CB5D2CC1AEB10090C7F9 /* default.html */,
 			);
 			path = Assets;
@@ -94,7 +94,6 @@
 				27BE4D242CC0CAE400E23EF7 /* Sources */,
 				27BE4D252CC0CAE400E23EF7 /* Frameworks */,
 				27BE4D262CC0CAE400E23EF7 /* Resources */,
-				2736CB5B2CC1AC5C0090C7F9 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -143,32 +142,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2736CB5E2CC1AEB10090C7F9 /* default.html in Resources */,
-				2736CB582CC1AB8E0090C7F9 /* Preview.png in Resources */,
+				2736CB582CC1AB8E0090C7F9 /* thumbnail.png in Resources */,
 				27BE4D382CC0CC8100E23EF7 /* config.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		2736CB5B2CC1AC5C0090C7F9 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Path to the .saver bundle\nSAVER_BUNDLE=\"${TARGET_BUILD_DIR}/${FULL_PRODUCT_NAME}\"\n\n# Check if the file exists before attempting to move\nif [ -f \"${SAVER_BUNDLE}/Contents/Resources/Preview.png\" ]; then\n   # Move Preview.png from Resources to the root of the bundle\n   mv \"${SAVER_BUNDLE}/Contents/Resources/Preview.png\" \"${SAVER_BUNDLE}/Contents/Preview.png\"\n   if [ $? -ne 0 ]; then\n       echo \"Error: Failed to move Preview.png\"\n       exit 1  # Exit with a non-zero code if the move failed\n   fi\nelse\n   echo \"Warning: Preview.png not found in Resources folder.\"\n   # Do not exit with error here, as this may not always be a fatal issue\nfi\n\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		27BE4D242CC0CAE400E23EF7 /* Sources */ = {

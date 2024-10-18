@@ -20,12 +20,12 @@
 	<string>1</string>
 	<key>NSPrincipalClass</key>
 	<string>EarlSaverView</string>
-  <key>ScreenSaverModule</key>
-  <dict>
-      <key>MainClassName</key>
-      <string>EarlSaverView</string>
-  </dict>
-  <key>NSPrefPaneIconFile</key>
-  <string>Preview.png</string>
+	<key>ScreenSaverModule</key>
+	<dict>
+		<key>MainClassName</key>
+		<string>EarlSaverView</string>
+	</dict>
+	<key>NSPrefPaneIconFile</key>
+	<string>thumbnail.png</string>
 </dict>
 </plist>
