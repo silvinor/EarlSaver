@@ -41,4 +41,4 @@ d) Please separate prototypes and header info into a `EarlSaverView.h` file and 
 
 ---
 
-Made with :heart: by **Vino Rodrigues**
+Made with :heart: by **Silvino Rodrigues**

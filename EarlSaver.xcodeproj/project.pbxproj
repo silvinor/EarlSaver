@@ -111,7 +111,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1240;
-				ORGANIZATIONNAME = com.vinorodrigues;
+				ORGANIZATIONNAME = com.silvinor;
 				TargetAttributes = {
 					27BE4D272CC0CAE400E23EF7 = {
 						CreatedOnToolsVersion = 12.4;
@@ -280,7 +280,7 @@
 				INFOPLIST_FILE = EarlSaver/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				MARKETING_VERSION = 0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vinorodrigues.EarlSaver;
+				PRODUCT_BUNDLE_IDENTIFIER = com.silvinor.EarlSaver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = saver;
 			};
@@ -294,7 +294,7 @@
 				INFOPLIST_FILE = EarlSaver/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				MARKETING_VERSION = 0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vinorodrigues.EarlSaver;
+				PRODUCT_BUNDLE_IDENTIFIER = com.silvinor.EarlSaver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = saver;
 			};
